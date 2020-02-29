@@ -1,0 +1,72 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.loader
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    align-self:center;
+    background: url("../images/giphy.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 999;
+}
+body{
+    margin: 0 ! important;
+    padding: 0;
+   background: url("../images/background.svg");
+   
+}
+.navbar-collapse.collapse.in {
+    display: block!important;
+  }
+.hero
+{
+    background-image: url("../images/header.jpg");
+    background-size: cover;
+    height: 50vh;
+    clip-path: polygon(0 0, 100% 0%, 100% 78%, 0 100%);
+}  
+#appointment-card
+{
+    margin-top: -150px;
+}
+#hero-quote
+{
+    margin-bottom: 150px;
+}
+#info
+
+{
+    margin-top: 200px;
+    border-top: solid mediumseagreen 3px;
+    border-top-right-radius: 100px ;
+    border-bottom: mediumseagreen solid 3px;
+    border-bottom-left-radius: 200px;
+    padding: 50px;
+   
+    background-size: cover;
+}
+#footer
+{   
+    margin-top: 50px;
+    background-color: midnightblue;
+    color: whitesmoke;
+    padding-left: 100px;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#appointment-form
+{
+    background: url(../images/form-back.jpg);
+    background-size: cover;
+    clip-path: polygon(0% 15%, 0 0, 15% 0%, 85% 0%, 100% 0, 100% 15%, 100% 59%, 77% 83%, 53% 49%, 28% 79%, 19% 52%, 0 64%);;
+    height: 40vw;
+}
+#main-form
+{
+    margin-top: -400px;
+}
